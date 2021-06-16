@@ -41,3 +41,5 @@ git-merge[1] to merge between local branches.
 git-rebase[1] to maintain topic branches.
 
 git-tag[1] to mark known point.
+
+git config --list
