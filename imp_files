@@ -1,3 +1,25 @@
+create a new topic branch.
+
+revert your botched changes in curses/ux_audio_oss.c.
+
+you need to tell Git if you added a new file; removal and modification will be caught if you do git commit -a later.
+
+to see what changes you are committing.
+
+commit everything, as you have tested, with your sign-off.
+
+look at all your changes including the previous commit.
+
+amend the previous commit, adding all your new changes, using your original message.
+
+switch to the master branch.
+
+merge a topic branch into your master branch.
+
+review commit logs; other forms to limit output can be combined and include -10 (to show up to 10 commits), --until=2005-12-10, etc.
+
+view only the changes that touch what’s in curses/ directory, since v2.43 tag.
+
 git-init[1] to create a new repository.
 
 git-show-branch[1] to see where you are.
